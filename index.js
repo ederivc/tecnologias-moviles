@@ -9,6 +9,7 @@ const fetchData = async() => {
   const response = await fetch('https://rickandmortyapi.com/api/character')
   const json = await response.json()
   console.log(json)
+  console.log('hola')
 }
 
 fetchData()
